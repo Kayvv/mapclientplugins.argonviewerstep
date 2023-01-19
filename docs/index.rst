@@ -43,39 +43,22 @@ Whether you use the output in a further workflow step or not, on completion of t
 Background
 ----------
 
-This **Argon Viewer**  is a bundle of **Zinc Widgets**.
+This **Argon Viewer**  is a bundle of `Zinc Widgets <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/index.html>`_.
 
 It includes:
 
-1. Material Editor Widget;
-2. Model Sources Widget;
-3. Time Editor Widget;
-4. Tessellation Editor Widget;
-5. Spectrum Editor Widget;
-6. Scene Editor Widget;
-7. Sceneviewer Editor Widget;
-8. Field Editor Widget;
-9. Region Editor Widget;
-10. Logger Editor Widget;
-11. Console Editor Widget.
+1. `Material Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/materialeditorwidget.html>`_;
+2. `Model Sources Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/modelsourceseditorwidget.html>`_;
+3. `Time Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/timeeditorwidget.html>`_;
+4. `Tessellation Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/tessellationwidget.html>`_;
+5. `Spectrum Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/spectrumeditorwidget.html>`_;
+6. `Scene Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/sceneeditorwidget.html>`_;
+7. `Sceneviewer Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/sceneviewerwidget.html>`_;
+8. `Field Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/fieldeditorwidget.html>`_;
+9. `Region Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/regioneditorwidget.html>`_;
+10. `Logger Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/loggereditorwidget.html>`_;
+11. `Console Editor Widget <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/consoleeditorwidget.html>`_.
 
-Detailed documentation on each of these widgets can be found at `Zinc Widgets Documentation <https://abi-mapping-tools.readthedocs.io/en/latest/opencmiss.zincwidgets/docs/index.html>`_.
-
-Install
--------
-
-Requirements
-^^^^^^^^^^^^
-
-python >= 3.6
-
-mapclient >= 0.16
-
-opencmiss.zinc >= 3.6
-
-opencmiss.zincwidgets >= 2.0
-
-opencmiss.argon >= 0.3
 
 Usage
 -----
@@ -106,7 +89,7 @@ By clicking the `Add View` button in the middle (or the green plus button on the
 .. _fig-scene-layout-chooser:
 
 .. figure:: _images/scene-layout-chooser.png
-   :figwidth: 40%
+   :figwidth: 75%
    :align: center
 
    **Scene Layout Chooser Dialog** for selecting view layout.
